@@ -4,6 +4,9 @@ Import( "lbd.config" );
 Import( "lbd.getInputUrl" );
 Import( "lbd.printWarUrl" );
 
+PATH=/bin:/sbin:/usr/bin:/usr/sbin:/usr/local/bin:/usr/local/sbin:~/bin
+export PATH
+
 #参考：http://www.zmonster.me/2014/08/09/pare-arguments-in-shell-function.html
 #参考：http://www.cnblogs.com/FrankTan/archive/2010/03/01/1634516.html
 #参考：http://www.cnblogs.com/chengmo/archive/2010/10/17/1853356.html
