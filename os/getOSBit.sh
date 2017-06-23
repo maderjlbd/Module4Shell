@@ -1,9 +1,11 @@
 Package( "os" );
 
+Import( "os.OsConfig" );
+
 function get(){
 	if [[ `getconf WORD_BIT` = '32' && `getconf LONG_BIT` = '64' ]] ; then
-        Is_64bit='y'
+        OsConfig.is64bit='y'
     else
-        Is_64bit='n'
+        OsConfig.is64bit='n'
     fi
 }

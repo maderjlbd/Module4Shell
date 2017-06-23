@@ -5,7 +5,7 @@ Import( "util.checkIfRootUser" );
 Import( "util.echoUtil" );
 
 function print(){
-	checkIfRootUser.check
+	#checkIfRootUser.check
 
 	echoUtil.red "print war url = $config.globalWarUrlInEnv"
 }
